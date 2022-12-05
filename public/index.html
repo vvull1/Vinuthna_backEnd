@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>
+
+
+<div class="container">
+    <div class="header">
+        <img src="Image.png" alt="my picture">
+        <h1>
+            <p>VINUTHNA VULLIGADDALA</p>
+        </h1>
+    </div>
+</div>
+
+<div class = "container">
+    <div class="navbar">
+        <a href="#About"><b>About</b></a>
+        <a href="#Education"><b>Education</b></a>
+        <a href="#Skills"><b>Skills</b></a>
+        <a href="#Experience"><b>Experience</b></a>
+        <a href="#Projects"> <b>Projects</b></a>
+        <a href="#Contact"><b>Contact</b></a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="about" id="About"></div>
+    <h2>About</h2>
+    <p> I am Vinuthna Vulligaddala pursing master's in Computer Science at Univerity of New haven. This is my last Semester here at University of New Haven. I grew up in Hyderabad, India. I have 1 year of experience as a mainframe developer at Capgemini.
+        I am an active and outgoing person. I am industrious and love to encounter challenges. My main strengths lie in my attitude which allow me to accept challenges and drive them towards success.</p>
+</div>
+
+<div class="container">
+    <div class="Education" id="Education"></div>
+    <h2>Education</h2>
+    <p>
+        Master's in Computer and Information Sciences, University of New Haven, West Haven, Connecticut, GPA: 3.7/4.0<br>
+        Bachelor of Technology, Electronics and Communication Engineering, Mallareddy Engineering College for Women.
+    </p>
+</div>
+
+<div class="container">
+    <div class="Skills" id="Skills"></div>
+    <h2>Skills</h2>
+    <ul>
+        <li><b>Languages :</b> C, Java, SQL, Data Structures, COBOL, JCL, VSAM.</li>
+        <li><b>Databases :</b> SQL Server, My SQL, Oracle.</li>
+        <li><b>Frameworks and Tools :</b> Eclipse, Visual studio, PyCharm, GITHUB, Weka Tool.</li>
+        <li><b>Web based Technologies :</b> HTML, PHP Basics.</li>
+        <li><b>Operating systems: </b> Windows, Linux</li>
+        <li><b>Documentation: </b> MS office, Exel</li>
+    </ul>
+
+</div>
+
+<div class="container">
+    <div class="Experience" id="Experience"></div>
+    <h2>Experience</h2>
+    <ul>
+        <li><b>Company :</b> Capgemini</li>
+        <li><b>Technology :</b> Mainframe Developer</li>
+        <li><b>Location :</b> Hyderabad</li>
+        <li><b>Project :</b> Job Portal System</li>
+    </ul>
+</div>
+
+<div class="container">
+    <div class="Projects" id="Projects"></div>
+    <h2>Projects</h2>
+    <ul>
+        <li><b>Job Portal System: </b> The objective of this application is to develop a system to enable interaction between employers 
+            and applicants. The determination is to allow communication between the interested parties and complete the task
+            of recruitment quickly.</li>
+        <li><b>Emoji based on Human Reactions: </b> Created a deep learning model that classifies face emotions in terms of photographs. 
+            Then, using an avatar or an emoji, we'll locate the previously defined emotion using libraries Numpy, CV2, Datetime, 
+            Tensorflow, Tkinter, Pandas.</li>
+    </ul>
+    
+</div>
+
+<div class="container">
+    <div class="Contact" id="Contact"></div>
+    <h2>Contact</h2>
+    <p>
+        Linkedin: https://www.linkedin.com/in/vinuthna-vulligaddala-496482194
+        <br>Phone: +1 959-999-5678<br>
+    </p>
+</div>
+
+</body>
+
+<style>
+
+img {
+    width: 130px;
+    height: 115px;
+    float: left;
+    padding: 0 450px 0 0;
+}
+
+
+
+.header {
+    /*width: 1320px;
+    height: 100px;*/
+    height: 100%;
+    background-color: #d3c3c1;
+    text-align: justify;
+    display: inline-block;
+}
+
+
+
+.container{
+    border: 4px solid #dbc6d7;
+    padding: 4px;
+    background-color: #daeccd;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "container"
+    "footer";
+    grid-gap : 0.8rem;
+    
+}
+
+.navbar {
+    padding: 4px;
+    overflow: hidden;
+    background-color: #dabab1;
+    /*width: 1320;
+    height: 100px;*/
+    width: 100%;
+    display: inline-block;
+}
+
+.navbar a {
+    display: block;
+    color: #ec4590;
+    text-align: center;
+    padding: 33px 33px 85px 85px;
+    font-size: larger;
+    text-decoration:underline;
+    display: inline-block;
+}
+
+
+h2 {
+    text-decoration: underline;
+    color: #e83283;
+}
+
+
+p{
+    color: #3E4C5C;
+    font-size: 18px;
+}
+
+ul{
+    font-size: 18px;
+}
+
+
+
+@media screen and (max-width: 80px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    nav {
+        height: 50px;
+    }
+   
+    .container{
+        display:block;
+    } 
+
+}
+</style>
+
+</html>
